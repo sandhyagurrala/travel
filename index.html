@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel Website</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -20,20 +20,25 @@
         <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/index.html">Home</a>
+                    <a class="nav-link text-white" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/destination.html" target="_blank">Destinations</a>
+                    <a class="nav-link text-white" href="destination.html" target="_blank">Destinations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="" data-target="#footer">Contact us</a>
+                    <a class="nav-link text-white" href="" target="_blank">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#footer">Contact us</a>
                 </li>
             </ul>
         </div>
-        <!-- <input type="search" name=""placeholder="search destination" id="" style="border-radius: 10px;margin: none;outline: none;color: none;"> -->
+        
         <div class="md-form my-0">
-          <input class="form-control" type="text" placeholder="Search Destinations" aria-label="Search">
+          <input class="form-control " style="width: 100px;height:40px" type="text" placeholder="Search" aria-label="Search">
         </div>
+
+
         <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#signup" >Signup</button>
        <button class="btn btn-primary" data-toggle="modal" data-target="#signin">Signin</button> 
     </nav>
@@ -62,13 +67,13 @@
               <!-- <h1 class="display-5">pleasantness of nature</h1> -->
               <h3>Feel the pleasantness of nature</h3>
             </div>
-            <img src="/images/nature.jpg" height=700 class="d-block w-100" alt="...">
+            <img src="images/nature.jpg" height=700 class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
               <div class="carousel-caption">
                   <h3>Cherish with beautiful experiences</h3>
               </div>
-            <img src="/images/tour2.jpg" height=700 class="d-block w-100" alt="...">
+            <img src="images/tour2.jpg" height=700 class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -92,31 +97,31 @@
 
 
       <!-- Cards for Our team -->
-<div class="jumbotron jumbotron-fluid bg-dark m-5">
+<div class="jumbotron jumbotron-fluid bg-dark m-6">
      <div class="container"> 
          <h3 class="font-weight-bold text-center text-danger">Regions Of India</h3>
           <div class="row"> 
-              <div class="col-4">
+              <div class="col-sm-4">
                    <div class="card my-3 bg-secondary text-white" style=width:18rem>
                      <div class="card-body"> 
-                         <img src="/images/northindia.jpg " class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
-                         <p class="card-text"><center>North India</center></p>
+                         <img src="images/northindia.jpg " class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
+                         <p class="card-text" style="text-align: center;">North India</p>
                          </div> 
                         </div> 
                     </div> 
-                    <div class="col-4"> 
+                    <div class="col-sm-4"> 
                         <div class="card my-3 bg-secondary text-white" style=width:18rem> 
                             <div class="card-body"> 
-                                <img src="/images/south india.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
-                                <p class="card-text"><center>South India</center></p> 
+                                <img src="images/south india.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
+                                <p class="card-text" style="text-align: center;">South India</p> 
                             </div> 
                         </div> 
                     </div> 
-                    <div class="col-4"> 
+                    <div class="col-sm-4"> 
                         <div class="card my-3 bg-secondary text-white" style=width:18rem> 
                             <div class="card-body"> 
-                                <img src="/images/westindia.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
-                                <p class="card-text"><center>West India</center></p>
+                                <img src="images/westindia.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
+                                <p class="card-text" style="text-align: center;">West India</p>
                             </div> 
                         </div> 
                     </div> 
@@ -126,27 +131,27 @@
             <!-- 2nd row -->
             <div class="container">
             <div class="row"> 
-              <div class="col-4">
+              <div class="col-sm-4">
                    <div class="card my-3 bg-secondary text-white" style=width:18rem>
                      <div class="card-body"> 
-                         <img src="/images/eastindia.jpg " class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
-                         <p class="card-text"><center>East India</center></p>
+                         <img src="images/eastindia.jpg " class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
+                         <p class="card-text" style="text-align: center;">East India</p>
                          </div> 
                         </div> 
                     </div> 
-                    <div class="col-4"> 
+                    <div class="col-sm-4"> 
                         <div class="card my-3 bg-secondary text-white" style=width:18rem> 
                             <div class="card-body"> 
-                                <img src="/images/northeastindia.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
-                                <p class="card-text"><center>North-East India</center></p> 
+                                <img src="images/northeastindia.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
+                                <p class="card-text" style="text-align: center;">North-East India</p> 
                             </div> 
                         </div> 
                     </div> 
-                    <div class="col-4"> 
+                    <div class="col-sm-4"> 
                         <div class="card my-3 bg-secondary text-white" style=width:18rem> 
                             <div class="card-body"> 
-                                <img src="/images/centralindia.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
-                                <p class="card-text"><center>Central India</center></p> 
+                                <img src="images/centralindia.jpg" class="img-thumbnail mx-auto" width="250" class="card-img-top"> 
+                                <p class="card-text " style="text-align: center;">Central India</p> 
                             </div> 
                         </div> 
                     </div> 

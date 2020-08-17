@@ -88,7 +88,74 @@
 
 
       <!--  -->
-    
+    <!-- book tickets -->
+<div class="modal fade" id="ticket">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Book Tickets</h3>
+                <button type="button" class="close" data-dismiss="modal" data-backdrop="static" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+         <form class="m mx-auto py-5 needs-validation" novalidate> 
+            <div class="container bg py-5"> 
+                <div class="row"> 
+                    <div class="col"> 
+     
+                        <label for="FirstName">Username</label> 
+                            <span class="input-group-addon"> <i class="fa fa-user" aria-hidden="true"></i> </span> 
+         
+                        <input type="email" id="Firstname" class="form-control" required placeholder="enter email"> 
+                        <div class="invalid-feedback">please enter email</div> 
+ 
+
+                    </div> 
+                <div class="col"> 
+                    <div class="form-group"> 
+                        <label for="pass">Password</label> 
+                        <span class="input-group-addon"> <i class="fa fa-eye" aria-hidden="true"></i></i> </span>
+                            <input type="password" id="pass" class="form-control" required placeholder="enter password"> 
+                                <div class="invalid-feedback">Password contains of</div> 
+                     </div> 
+
+                    </div> 
+                </div> 
+                    <div class="form-group"> 
+                        <label for="gender">Gender</label> 
+                        <select class="form-control" id="gender"> 
+                            <option value="m">Male</option> 
+                            <option value="f">Female</option> 
+                         </select> 
+                    </div>  
+                    <div class="row">
+                        <div class="col">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Destination
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Jammu&Kashmir</a>
+                                  <a class="dropdown-item" href="#">Charminar</a>
+                                  <a class="dropdown-item" href="#">Tajmahal</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                <div class="form-check"> 
+                    <input type="checkbox" id="" class="form-check-input"> 
+                    <label for="" class="form-check-label">RememberMe</label> 
+                </div> 
+ 
+                    <button type="submit" class="btn btn-success w-100"> submit </button> 
+            </div> 
+        </form> 
+    </div>
+</div>
+</div>
+</div>
 
 
 
@@ -324,73 +391,7 @@
 </div>
 
 
-<!-- book tickets -->
-<div class="modal fade" id="ticket">
-    <div class="modal-dialog ">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Book Tickets</h3>
-                <button type="button" class="close" data-dismiss="modal" data-backdrop="static" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-         <form class="m mx-auto py-5 needs-validation" novalidate> 
-            <div class="container bg py-5"> 
-                <div class="row"> 
-                    <div class="col"> 
-     
-                        <label for="FirstName">Username</label> 
-                            <span class="input-group-addon"> <i class="fa fa-user" aria-hidden="true"></i> </span> 
-         
-                        <input type="email" id="Firstname" class="form-control" required placeholder="enter email"> 
-                        <div class="invalid-feedback">please enter email</div> 
- 
 
-                    </div> 
-                <div class="col"> 
-                    <div class="form-group"> 
-                        <label for="pass">Password</label> 
-                        <span class="input-group-addon"> <i class="fa fa-eye" aria-hidden="true"></i></i> </span>
-                            <input type="password" id="pass" class="form-control" required placeholder="enter password"> 
-                                <div class="invalid-feedback">Password contains of</div> 
-                     </div> 
-
-                    </div> 
-                </div> 
-                    <div class="form-group"> 
-                        <label for="gender">Gender</label> 
-                        <select class="form-control" id="gender"> 
-                            <option value="m">Male</option> 
-                            <option value="f">Female</option> 
-                         </select> 
-                    </div>  
-                    <div class="row">
-                        <div class="col">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Destination
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Jammu&Kashmir</a>
-                                  <a class="dropdown-item" href="#">Charminar</a>
-                                  <a class="dropdown-item" href="#">Tajmahal</a>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-
-                <div class="form-check"> 
-                    <input type="checkbox" id="" class="form-check-input"> 
-                    <label for="" class="form-check-label">RememberMe</label> 
-                </div> 
- 
-                    <button type="submit" class="btn btn-success w-100"> submit </button> 
-            </div> 
-        </form> 
-    </div>
-</div>
-</div>
 
 
     
